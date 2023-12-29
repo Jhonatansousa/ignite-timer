@@ -1,30 +1,35 @@
-# React + TypeScript + Vite
+# Ignite Timer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descrição
 
-Currently, two official plugins are available:
+Este projeto da rocketseat é um aplicativo de timer construído com React, aproveitando diversas tecnologias e conceitos modernos de desenvolvimento web. Ele inclui funcionalidades como iniciar e interromper o timer, configurar a duração do ciclo de trabalho e exibir histórico dos ciclos concluídos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Aprendizados
 
-## Expanding the ESLint configuration
+Durante o desenvolvimento deste projeto, aprendi e apliquei os seguintes conceitos e tecnologias:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **React e TypeScript**: Utilizei o React juntamente com TypeScript para criar uma aplicação mais robusta e tipada, melhorando a qualidade do código e facilitando a manutenção.
 
-- Configure the top-level `parserOptions` property like this:
+- **Styled Components**: Adotei a abordagem de Styled Components para estilizar os elementos, permitindo a criação de estilos encapsulados e reutilizáveis.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- **ESLint**: Implementei boas práticas de codificação usando ESLint para manter um código limpo e consistente.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- **React Router DOM**: Implementei navegação entre diferentes seções do aplicativo usando o React Router DOM, permitindo uma experiência de usuário mais dinâmica.
+
+- **React Hook Form e Zod**: Utilizei o React Hook Form para lidar com formulários e validação, integrando-o com o Zod para garantir dados válidos.
+
+- **useEffect**: Apliquei o hook useEffect para lidar com efeitos colaterais, especialmente nas funcionalidades relacionadas ao countdown do timer.
+
+- **Context API e Reducers com Immer**: Implementei um contexto global usando a Context API para compartilhar dados entre componentes de diferentes rotas. Utilizei Reducers com Immer para gerenciar o estado de forma mais eficiente.
+
+- **Local Storage**: Utilizei o Local Storage para armazenar o histórico dos ciclos do timer, permitindo a persistência de dados mesmo quando o usuário recarrega a página.
+
+Este projeto me proporcionou uma experiência prática na construção de aplicativos React completos, aplicando boas práticas de desenvolvimento e explorando diversas ferramentas e conceitos essenciais para o desenvolvimento web moderno.
+
+---
+
+# Deploy
+
+O aplicativo Timer está implantado e pode ser acessado [aqui](https://ignite-timer-umber.vercel.app/). Experimente as funcionalidades implementadas e explore o aplicativo em tempo real!
+
+
